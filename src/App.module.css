@@ -1,0 +1,182 @@
+.frontEnd{
+    margin: 0;
+    background: var(--Dark-Grey, #262626);
+
+}
+
+.titulo{
+    font-family: "Roboto";
+    width: 432px;
+height: 60px;
+font-size: 32px;
+font-weight: 800;
+line-height: 37.5px;
+text-align: center;
+color: #F5F5F5;
+background-color: #6BD1FF;
+padding: 10px 0 0 0;
+margin: 0 0 20px 70px;
+border-radius: 15px;
+}
+
+.videosFront{
+    display: -webkit-box;
+    padding: 0 0 30px 0;
+   
+    
+
+}
+.backEnd {
+    background: var(--Dark-Grey, #262626);
+
+}
+
+.tituloBack {
+    font-family: "Roboto";
+    width: 432px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37.5px;
+    text-align: center;
+    color: #F5F5F5;
+    background: rgba(0, 200, 111, 1);
+
+    padding: 10px 0 0 0;
+    margin: 0 0 20px 70px;
+    border-radius: 15px;
+}
+
+.tituloInnovacion{
+    font-family: "Roboto";
+    width: 432px;
+height: 60px;
+font-size: 32px;
+font-weight: 800;
+line-height: 37.5px;
+text-align: center;
+color: #F5F5F5;
+background: rgba(255, 186, 5, 1);
+padding: 10px 0 0 0;
+margin: 0 0 20px 70px;
+border-radius: 15px;
+}
+
+.editaCard {
+    background: rgba(3, 18, 47, 1);
+
+}
+
+.cardTitulo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+    font-size: 50px;
+    color: rgba(34, 113, 209, 1);
+    margin: 0;
+    
+
+}
+.textolabel{
+    
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin: 0px 30px 0px 30px;
+
+}
+
+.formulario {
+    display: block;
+    width: 573px;
+    height: 57px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgba(3, 18, 47, 1);
+    border: 3px solid var(--Blue, rgba(34, 113, 209, 1));
+    margin: 10px 30px 10px 30px;
+    color: #F5F5F5;
+}
+
+
+.boton{
+   display: inline;
+   width: 180.13px;
+   height: 50px;
+margin: 10px 0 20px 110px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+text-align: center;
+background: rgba(3, 18, 47, 1);
+padding: 10px 10px 10px 10px;
+color:  #FFFFFF;
+text-decoration: none;
+border: 2px solid #FFFFFF;
+border-radius: 10px;
+}
+
+.boton:hover{
+    border: 2px solid var(--Blue, rgba(34, 113, 209, 1));
+    color: var(--Blue, rgba(34, 113, 209, 1));
+      
+}
+.formularioDescripcion{
+    display: block;
+    width: 573px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgba(3, 18, 47, 1);
+    border: 3px solid var(--Blue, rgba(34, 113, 209, 1));
+    
+    margin: 10px 30px 20px 30px;
+}
+
+
+
+@media (max-width: 768px) {
+    .tituloBack{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+@media (max-width: 480px){
+    .titulo{
+        font-size: 30px;
+        width: 40%;
+       
+    }
+    .tituloBack{
+        font-size: 30px;
+        width: 40%;
+       
+    }
+    .tituloInnovacion{
+        width: 60%;
+        font-size: 20px;
+        gap: 0;
+       
+    }
+    .videosFront{
+        display: block;
+        width: 95%;
+    }
+    .videosBack {
+        display: block;
+        width: 95%;
+    }
+    .videos{
+        width: 95%;
+    }
+    .formulario{
+        width: 80%;
+    }
+    .formularioDescripcion{
+        width: 80%;
+    }
+    
+}

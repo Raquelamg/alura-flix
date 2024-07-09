@@ -1,0 +1,104 @@
+.frontEnd{
+    background: var(--Dark-Grey, #262626);
+
+}
+
+.titulo{
+    font-family: "Roboto";
+    width: 432px;
+height: 60px;
+font-size: 32px;
+font-weight: 800;
+line-height: 37.5px;
+text-align: center;
+color: #F5F5F5;
+background-color: #6BD1FF;
+padding: 10px 0 0 0;
+margin: 0 0 20px 70px;
+border-radius: 15px;
+}
+
+
+.videos{
+    display: block;
+    border: 5px solid #6BD1FF;
+    width: 30%;
+    height: 319.85px;
+    margin: 50px 10px 0 20px;
+    border-radius: 15px;
+    opacity: 0px;
+    background-color: black;
+
+}
+
+.video{
+    display: flex;
+    width:100%;
+height: 260.85px;
+gap: 0px;
+border-radius: 15px 15px 0px 0px;
+padding:0;
+margin: 0;
+border: 5px 0px 0px 0px;
+opacity: 0px;
+border-bottom:  5px solid #6BD1FF;
+box-shadow: 0px 0px 17px 8px rgba(107, 209, 255, 1) inset;
+}
+
+.icono{
+    margin: 10px 5px 0px 100px;
+}
+.iconoEliminar {
+        display: inline;
+        margin: 5px 10px 0 0px;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+.iconoBotonEliminar{
+        margin: 5px 0px 0 23%;
+        background-color: black;
+        border: none;
+    
+    } 
+    
+    .iconoEditar {
+        display: inline;
+        margin: 10px 20px 0 5px;
+        color: white;
+    
+    }
+    
+    .iconoBotonEditar {
+        display: inline;
+        margin: 5px 0px 0 15px;
+        color: white;
+    
+    
+    }
+    
+
+@media (max-width: 768px) {
+    .videos{
+        width: 80%;
+        margin: 20px 0 10px 50px;
+    }
+
+}
+
+
+@media (max-width: 425px){
+    .titulo{
+        font-size: 30px;
+        width: 40%;
+       
+
+        
+    }
+   
+    
+    .videos{
+        width: 80%;
+    }
+
+}

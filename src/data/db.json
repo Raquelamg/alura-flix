@@ -1,0 +1,77 @@
+ { "videos":[
+    
+    {
+        "id": "1",
+        "titulo": "Alura",
+        "categoria": "1",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/t-iqt1b2qqk?si=T-lxDGgBwzQlqg7",
+        "descripcion": "video de ejemplo"
+    },
+    
+    {
+        "id": "2",
+        "titulo": "Alura2",
+        "categoria": "1",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/cLLKVd5CNLc?si=_Y1EHzS2mrBVXM5T",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "3",
+        "titulo": "Alura3",
+        "categoria": "1",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/EoPvlE85XAQ?si=ys20b2EMc7hEUcCA",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "4",
+        "titulo": "Alura4",
+        "categoria": "2",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/vhwspfvI52k?si=kKwsQ2X1gXOC4RWT",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "5",
+        "titulo": "Alura5",
+        "categoria": "2",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=kOQugbNVVHOzECgm",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "6",
+        "titulo": "Alura3",
+        "categoria": "2",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/6N3OkLCfK-0?si=jogTNT15B1HWsXJp",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "7",
+        "titulo": "Alura",
+        "categoria": "3",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/PztCEdIJITY?si=OeNNtvuGEW0Ar0oc",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "8",
+        "titulo": "Alura2",
+        "categoria": "3",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/GJfOSoaXk4s?si=5siTbvQjBW9BU3tS",
+        "descripcion": "video de ejemplo"
+    },
+    {
+        "id": "9",
+        "titulo": "Alura3",
+        "categoria": "3",
+        "imagen": "",
+        "video": "https://www.youtube.com/embed/rpvrLaBQwgg?si=WZxBMDRI6zrobeSV",
+        "descripcion": "video de ejemplo"
+    }
+]
+}
